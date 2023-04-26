@@ -7,7 +7,7 @@ from eralchemy2 import render_er
 
 Base = declarative_base()
 
-class Person(Base):
+class Follower(Base):
     __tablename__ = 'person'
     # Here we define columns for the table person
     # Notice that each column is also a normal Python instance attribute.
